@@ -25,16 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Projeto.Curso.Core.Domain.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Projeto.Curso.Core.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Projeto.Curso.Core.Domain.Shared.dll": {}
-        }
       }
     }
   },
@@ -182,17 +172,11 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Projeto.Curso.Core.Domain.Shared/1.0.0": {
-      "type": "project",
-      "path": "../Projeto.Curso.Core.Domain.Shared/Projeto.Curso.Core.Domain.Shared.csproj",
-      "msbuildProject": "../Projeto.Curso.Core.Domain.Shared/Projeto.Curso.Core.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "Projeto.Curso.Core.Domain.Shared >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -202,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj",
-      "projectName": "Projeto.Curso.Core.Domain.Pedidos",
-      "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj",
+      "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj",
+      "projectName": "Projeto.Curso.Core.Domain.Shared",
+      "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj",
       "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\obj\\",
+      "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -224,11 +208,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Pedidos.csproj": {}
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Pedidos.csproj": {
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Pedidos.csproj",
-        "projectName": "Projeto.Curso.Core.Pedidos",
-        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Pedidos.csproj",
+        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj",
+        "projectName": "Projeto.Curso.Core.Infra.CrossCutting",
+        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\obj\\",
+        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
