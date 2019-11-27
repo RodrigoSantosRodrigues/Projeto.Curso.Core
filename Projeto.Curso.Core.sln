@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Presentation", "0-Presentation", "{13E8DBE3-E7D3-49A6-A52F-3B3D9D5F1ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{379C0E7A-1C4B-4911-B57E-E538E246EAC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{59C2479E-0D05-40DC-ACAE-1B8132221C54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{34FEFDD0-FD98-4592-8295-1E1707B4D804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{7AF44C1F-7A2E-40BC-99AA-D93F7A8B7D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{ACFF1938-4329-42BA-AA03-5A4713E0F87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrosCutting", "4.2-CrosCutting", "{6DA541F9-C365-4756-BBCE-B8341CF1D376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Curso.Core.Pedidos", "src\Projeto.Curso.Core.Pedidos\Projeto.Curso.Core.Pedidos.csproj", "{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACFF1938-4329-42BA-AA03-5A4713E0F87F} = {7AF44C1F-7A2E-40BC-99AA-D93F7A8B7D2B}
+		{6DA541F9-C365-4756-BBCE-B8341CF1D376} = {7AF44C1F-7A2E-40BC-99AA-D93F7A8B7D2B}
+		{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3} = {34FEFDD0-FD98-4592-8295-1E1707B4D804}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8DD1296-A08E-4C14-84BE-DF7321E0AEAE}
+	EndGlobalSection
+EndGlobal
