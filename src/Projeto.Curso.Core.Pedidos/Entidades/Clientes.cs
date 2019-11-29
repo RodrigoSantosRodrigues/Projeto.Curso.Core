@@ -1,33 +1,30 @@
 ﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+using System.Linq;
 
 namespace Projeto.Curso.Core.Domain.Pedidos.Entidades
 {
     public class Clientes : Pessoa
     {
-        private void ApelidoDeveSerPreenchido()
-        {
-            if (string.IsNullOrEmpty(Apelido)) ListaErros.Add("Preencher Apelido!");
-        }
-
-        private void ApelidoDeveTerUmTamanhoLimite()
-        {
-            if (Apelido.Trim().Length > 20) ListaErros.Add("Campo Apelido Máximo de 20 caracteres!");
-        }
-
-        private void NomeDevePreenchido()
-        {
-            if (string.IsNullOrEmpty(Nome)) ListaErros.Add("Nome deve ser preenchido");
-        }
-
-        private void NomeDeveTerUmTamanhoLimite()
-        {
-            if (Nome.Trim().Length > 20) ListaErros.Add("Nome deve ser maior que 20!");
-        }
-
         public override bool EstaConsistente()
         {
-            throw new System.NotImplementedException();
+            ApelidoDeveSerPreenchido();
+            ApelidoDeveTerUmTamanhoLimite(20);
+            NomeDeveSerPreenchido();
+            NomeDeveTerUmTamanhoLimite(100);
+            CPFouCNPJDeveSerPreenchido();
+            CPFouCNPJDeveSerValido();
+            EmaiDeveSerValido();
+            EmailDeveTerUmTamanhoLimite(100);
+            EnderecoDeveSerPreenchido();
+            EnderecoDeveTerUmTamanhoLimite(100);
+            BairroDeveTerUmTamanhoLimite(30);
+            CidadeDeveSerPreenchida();
+            CidadeDeveTerUmTamanhoLimite(30);
+            UFDeveSerPreenchida();
+            UFDeveSerValida();
+            CepDeveSerValido();
+            return !ListaErros.Any();
         }
-
+    
     }
 }

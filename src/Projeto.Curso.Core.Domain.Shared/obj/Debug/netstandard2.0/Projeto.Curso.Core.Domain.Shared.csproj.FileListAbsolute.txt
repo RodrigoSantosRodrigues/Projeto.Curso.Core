@@ -1,0 +1,11 @@
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.deps.json
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.csprojAssemblyReference.cache
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.AssemblyInfo.cs
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.csproj.CopyComplete
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Domain.Shared\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.pdb

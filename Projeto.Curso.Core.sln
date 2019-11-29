@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{7AF4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{ACFF1938-4329-42BA-AA03-5A4713E0F87F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrosCutting", "4.2-CrosCutting", "{6DA541F9-C365-4756-BBCE-B8341CF1D376}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{6DA541F9-C365-4756-BBCE-B8341CF1D376}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto.Curso.Core.Domain.Pedidos", "src\Projeto.Curso.Core.Pedidos\Projeto.Curso.Core.Domain.Pedidos.csproj", "{D12FD7BD-5C50-4CA7-9269-EC87FECA86D3}"
 EndProject
