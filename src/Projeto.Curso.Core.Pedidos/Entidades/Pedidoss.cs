@@ -1,14 +1,18 @@
-﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+﻿using Projeto.Curso.Core.Domain.Pedidos.Entidades;
+using Projeto.Curso.Core.Domain.Shared.Entidades;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Projeto.Curso.Domain.Pedidos.Entidades
 {
-    public class Pedidos : EntidadeBase
+    public class Pedidoss : EntidadeBase
     {
         public DateTime DataPedido { get; set; }
         public DateTime? DataEntrega { get; set; }
         public int IdCliente { get; set; }
+        public virtual Clientes Cliente { get; set; }
+        public ICollection<ItensPedidos> ItensPedidos { get; set; }
 
         public override bool EstaConsistente()
         {

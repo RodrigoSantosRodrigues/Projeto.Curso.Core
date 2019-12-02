@@ -1,4 +1,5 @@
-﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+﻿using Projeto.Curso.Core.Domain.Pedidos.Entidades;
+using Projeto.Curso.Core.Domain.Shared.Entidades;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,6 +12,8 @@ namespace Projeto.Curso.Domain.Pedidos.Entidades
         public decimal Valor { get; set; }
         public string Unidade { get; set; }
         public int IdFornecedor { get; set; }
+        public virtual Fornecedores Fornecedor{ get; set; }
+        public ICollection<ItensPedidos> ItensPedidos { get; set; }
 
         public override bool EstaConsistente()
         {

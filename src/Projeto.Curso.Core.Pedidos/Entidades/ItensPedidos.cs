@@ -1,16 +1,16 @@
 ﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+using Projeto.Curso.Domain.Pedidos.Entidades;
 using System.Linq;
 
-namespace Projeto.Curso.Domain.Pedidos.Entidades
+namespace Projeto.Curso.Core.Domain.Pedidos.Entidades
 {
-    public class ItemsPedidos : EntidadeBase
+    public class ItensPedidos : EntidadeBase
     {
         public int Qtd { get; set; }
-        public int IdPedido { get; set; }
         public int IdProduto { get; set; }
-        public string Apelido { get; set; }
-        public string Nome { get; set; }
-
+        public virtual Produtos Produto { get; set; }
+        public int IdPedido { get; set; }
+        public virtual Pedidoss Pedido { get; set; }
         public override bool EstaConsistente()
         {
             QuantidadeDeveSerSuperiorAZero();

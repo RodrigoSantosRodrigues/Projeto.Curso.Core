@@ -1,10 +1,13 @@
 ﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+using Projeto.Curso.Domain.Pedidos.Entidades;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Projeto.Curso.Core.Domain.Pedidos.Entidades
 {
     public class Clientes : Pessoa
     {
+        public ICollection<Pedidoss> Pedidos { get; set; }
         public override bool EstaConsistente()
         {
             ApelidoDeveSerPreenchido();

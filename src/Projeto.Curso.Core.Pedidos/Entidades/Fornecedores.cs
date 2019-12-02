@@ -1,10 +1,12 @@
 ﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Projeto.Curso.Domain.Pedidos.Entidades
 {
     public class Fornecedores : Pessoa
 {
+        public ICollection<Produtos> Produtos { get; set; }
         public override bool EstaConsistente()
         {
             ApelidoDeveSerPreenchido();
