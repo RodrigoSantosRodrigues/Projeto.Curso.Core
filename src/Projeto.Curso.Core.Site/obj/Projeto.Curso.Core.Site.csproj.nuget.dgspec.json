@@ -4,6 +4,281 @@
     "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Site\\Projeto.Curso.Core.Site.csproj": {}
   },
   "projects": {
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj",
+        "projectName": "Projeto.Curso.Core.Domain.Shared",
+        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodrigosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj",
+        "projectName": "Projeto.Curso.Core.Infra.CrossCutting",
+        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\Projeto.Curso.Core.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodrigosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj",
+        "projectName": "Projeto.Curso.Core.Infra.Data",
+        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodrigosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj"
+              },
+              "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj": {
+                "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj",
+        "projectName": "Projeto.Curso.Core.Domain.Pedidos",
+        "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\Projeto.Curso.Core.Domain.Pedidos.csproj",
+        "packagesPath": "C:\\Users\\rodrigosantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Pedidos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodrigosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Domain.Shared\\Projeto.Curso.Core.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Site\\Projeto.Curso.Core.Site.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +304,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

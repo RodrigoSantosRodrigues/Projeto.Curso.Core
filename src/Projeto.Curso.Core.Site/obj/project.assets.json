@@ -265,6 +265,33 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -314,6 +341,28 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Identity.Core/3.0.0": {
@@ -1394,6 +1443,63 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Projeto.Curso.Core.Domain.Pedidos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Projeto.Curso.Core.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Projeto.Curso.Core.Domain.Pedidos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projeto.Curso.Core.Domain.Pedidos.dll": {}
+        }
+      },
+      "Projeto.Curso.Core.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Projeto.Curso.Core.Infra.CrossCutting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Projeto.Curso.Core.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projeto.Curso.Core.Domain.Shared.dll": {}
+        }
+      },
+      "Projeto.Curso.Core.Infra.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Projeto.Curso.Core.Infra.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projeto.Curso.Core.Infra.CrossCutting.dll": {}
+        }
+      },
+      "Projeto.Curso.Core.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Microsoft.Extensions.Configuration.Json": "2.1.0",
+          "Projeto.Curso.Core.Domain.Pedidos": "1.0.0",
+          "Projeto.Curso.Core.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Projeto.Curso.Core.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projeto.Curso.Core.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -1832,6 +1938,32 @@
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
+    "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+      "sha512": "xvbjRAIo2Iwxk7vsMg49RwXPOOm5rtvr0frArvlg1uviS60ouVkOLouCNvOv/eRgWYINPbHAU9p//zEjit38Og==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/2.1.0": {
+      "sha512": "9OCdAv7qiRtRlXQnECxW9zINUK8bYPKbNp5x8FQaLZbm/flv7mPvo1muZ1nsKGMZF4uL4Bl6nHw2v1fi3MqQ1Q==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.2.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/3.0.0": {
       "sha512": "yDsuNA/BT4j9qrcRs0NUNHQAJfywFWX18ZZ+shxXJL+/nIfz3vhuRTfnYgvFeQlNBlgmgdSjOcs4ajgoS6Q/Ng==",
       "type": "package",
@@ -1895,6 +2027,32 @@
         "microsoft.extensions.fileproviders.embedded.3.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+      "sha512": "A9xLomqD4tNFqDfleapx2C14ZcSjCTzn/4Od0W/wBYdlLF2tYDJ204e75HjpWDVTkr03kgdZbM3QZ6ZeDsrBYg==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.2.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
+      "sha512": "JEwwhwbVTEXJu4W4l/FFx7FG9Fh5R8999mZl6qJImjM/LY4DxQsFYzpSkziMdY022n7TQpNUxJlH9bKZc7TqWw==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.2.1.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
     "Microsoft.Extensions.Identity.Core/3.0.0": {
@@ -5283,6 +5441,26 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Projeto.Curso.Core.Domain.Pedidos/1.0.0": {
+      "type": "project",
+      "path": "../Projeto.Curso.Core.Pedidos/Projeto.Curso.Core.Domain.Pedidos.csproj",
+      "msbuildProject": "../Projeto.Curso.Core.Pedidos/Projeto.Curso.Core.Domain.Pedidos.csproj"
+    },
+    "Projeto.Curso.Core.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Projeto.Curso.Core.Domain.Shared/Projeto.Curso.Core.Domain.Shared.csproj",
+      "msbuildProject": "../Projeto.Curso.Core.Domain.Shared/Projeto.Curso.Core.Domain.Shared.csproj"
+    },
+    "Projeto.Curso.Core.Infra.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../Projeto.Curso.Core.Infra.CrossCutting/Projeto.Curso.Core.Infra.CrossCutting.csproj",
+      "msbuildProject": "../Projeto.Curso.Core.Infra.CrossCutting/Projeto.Curso.Core.Infra.CrossCutting.csproj"
+    },
+    "Projeto.Curso.Core.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Projeto.Curso.Core.Infra.Data/Projeto.Curso.Core.Infra.Data.csproj",
+      "msbuildProject": "../Projeto.Curso.Core.Infra.Data/Projeto.Curso.Core.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5291,7 +5469,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
+      "Projeto.Curso.Core.Infra.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5323,7 +5502,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\rodrigosantos\\source\\repos\\Projeto.Curso.Core\\src\\Projeto.Curso.Core.Infra.Data\\Projeto.Curso.Core.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

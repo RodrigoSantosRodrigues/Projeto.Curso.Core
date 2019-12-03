@@ -1,0 +1,16 @@
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.csprojAssemblyReference.cache
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.AssemblyInfo.cs
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\appsettings.json
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.deps.json
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.csproj.CopyComplete
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.dll
+C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.Data\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.Data.pdb

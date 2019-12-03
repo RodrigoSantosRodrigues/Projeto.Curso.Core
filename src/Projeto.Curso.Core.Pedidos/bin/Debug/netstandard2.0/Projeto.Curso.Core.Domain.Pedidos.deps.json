@@ -24,18 +24,15 @@
       },
       "Projeto.Curso.Core.Domain.Shared/1.0.0": {
         "dependencies": {
-          "Projeto.Curso.Core.Infra.CrossCutting": "1.0.0.0"
+          "Projeto.Curso.Core.Infra.CrossCutting": "1.0.0"
         },
         "runtime": {
           "Projeto.Curso.Core.Domain.Shared.dll": {}
         }
       },
-      "Projeto.Curso.Core.Infra.CrossCutting.Reference/1.0.0.0": {
+      "Projeto.Curso.Core.Infra.CrossCutting/1.0.0": {
         "runtime": {
-          "Projeto.Curso.Core.Infra.CrossCutting.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projeto.Curso.Core.Infra.CrossCutting.dll": {}
         }
       }
     }
@@ -65,8 +62,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Projeto.Curso.Core.Infra.CrossCutting.Reference/1.0.0.0": {
-      "type": "reference",
+    "Projeto.Curso.Core.Infra.CrossCutting/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
