@@ -33,7 +33,7 @@ namespace Projeto.Curso.Core.Infra.Data.Context
                .AddJsonFile("appsettings.json")
                .Build();
 
-            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseMySql(config.GetConnectionString("DefaultConnection"));
         }
     }
 }
