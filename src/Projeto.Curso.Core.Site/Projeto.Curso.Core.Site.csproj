@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-Projeto.Curso.Core.Site-BBB6E39A-35E5-41A7-89AF-3D70AEB59F19</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
