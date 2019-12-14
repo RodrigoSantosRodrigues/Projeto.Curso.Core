@@ -5,3 +5,11 @@ C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.In
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.AssemblyInfo.cs
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.deps.json
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.csprojAssemblyReference.cache
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.AssemblyInfoInputs.cache
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.AssemblyInfo.cs
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Infra.CrossCutting\obj\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb

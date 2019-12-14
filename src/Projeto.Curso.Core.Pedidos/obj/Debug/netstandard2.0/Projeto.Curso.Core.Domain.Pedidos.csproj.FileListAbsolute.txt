@@ -11,3 +11,16 @@ C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Pe
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.csproj.CopyComplete
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.dll
 C:\Users\rodrigosantos\source\repos\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.deps.json
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Shared.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\bin\Debug\netstandard2.0\Projeto.Curso.Core.Infra.CrossCutting.pdb
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.csprojAssemblyReference.cache
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.AssemblyInfoInputs.cache
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.AssemblyInfo.cs
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.csproj.CopyComplete
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.dll
+D:\Workspace\.Net\Projeto.Curso.Core\src\Projeto.Curso.Core.Pedidos\obj\Debug\netstandard2.0\Projeto.Curso.Core.Domain.Pedidos.pdb
