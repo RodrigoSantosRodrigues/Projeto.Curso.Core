@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Projeto.Curso.Core.Domain.Pedidos.AgregacaoPedidos;
 using Projeto.Curso.Core.Domain.Pedidos.Entidades;
 using Projeto.Curso.Core.Infra.Data.Mappings;
+using Projeto.Curso.Domain.Pedidos.AgregacaoPedidos;
 using Projeto.Curso.Domain.Pedidos.Entidades;
 using System.IO;
 

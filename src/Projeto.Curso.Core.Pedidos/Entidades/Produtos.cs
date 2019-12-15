@@ -1,4 +1,5 @@
-﻿using Projeto.Curso.Core.Domain.Pedidos.Entidades;
+﻿using Projeto.Curso.Core.Domain.Pedidos.AgregacaoPedidos;
+using Projeto.Curso.Core.Domain.Pedidos.Entidades;
 using Projeto.Curso.Core.Domain.Shared.Entidades;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,15 +1,17 @@
-﻿using Projeto.Curso.Core.Domain.Pedidos.Entidades;
+﻿using Projeto.Curso.Core.Domain.Pedidos.AgregacaoPedidos;
+using Projeto.Curso.Core.Domain.Pedidos.Entidades;
 using Projeto.Curso.Core.Domain.Shared.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Projeto.Curso.Domain.Pedidos.Entidades
+namespace Projeto.Curso.Domain.Pedidos.AgregacaoPedidos
 {
     public class Pedidoss : EntidadeBase
     {
         public DateTime DataPedido { get; set; }
         public DateTime? DataEntrega { get; set; }
+        public string Observacao { get; set; }
         public int IdCliente { get; set; }
         public virtual Clientes Cliente { get; set; }
         public ICollection<ItensPedidos> ItensPedidos { get; set; }
@@ -20,7 +22,14 @@ namespace Projeto.Curso.Domain.Pedidos.Entidades
             DataPedidoDeveSerSuperiorOuIgualADataDoDia();
             DataEntregaDeveSerSuperiorOuIgualDataPedido();
             ClienteDeveSerPreenchido();
+            ObservacaoDeveTerUmTamanhoLimite();
             return !ListaErros.Any();
+        }
+
+        private void ObservacaoDeveTerUmTamanhoLimite()
+        {
+            if (!string.IsNullOrEmpty(Observacao) && Observacao.Length > 4000) ListaErros.Add("Campo observação deverá ter no máximo 4000 caracteres");
+  
         }
 
         private void DataPedidoDeveSerPreenchida()

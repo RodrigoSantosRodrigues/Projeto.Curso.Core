@@ -8,4 +8,8 @@
     <ProjectReference Include="..\Projeto.Curso.Core.Domain.Shared\Projeto.Curso.Core.Domain.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+
 </Project>

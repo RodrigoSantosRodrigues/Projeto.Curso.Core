@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Projeto.Curso.Core.Domain.Pedidos.Entidades;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Projeto.Curso.Core.Domain.Pedidos.AgregacaoPedidos;
 
 namespace Projeto.Curso.Core.Infra.Data.Mappings
 {

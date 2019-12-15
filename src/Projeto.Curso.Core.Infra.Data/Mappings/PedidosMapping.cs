@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Projeto.Curso.Domain.Pedidos.Entidades;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Projeto.Curso.Domain.Pedidos.AgregacaoPedidos;
 
 namespace Projeto.Curso.Core.Infra.Data.Mappings
 {
@@ -19,6 +16,9 @@ namespace Projeto.Curso.Core.Infra.Data.Mappings
 
             builder.Property(p => p.DataEntrega)
                 .HasColumnType("DateTime");
+
+            builder.Property(p => p.Observacao)
+                .HasColumnType("varchar(4000)");
 
             builder.HasOne(p => p.Cliente)
                 .WithMany(c => c.Pedidos)

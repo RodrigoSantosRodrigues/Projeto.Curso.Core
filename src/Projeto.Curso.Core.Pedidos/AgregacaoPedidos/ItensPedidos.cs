@@ -1,8 +1,9 @@
 ﻿using Projeto.Curso.Core.Domain.Shared.Entidades;
+using Projeto.Curso.Domain.Pedidos.AgregacaoPedidos;
 using Projeto.Curso.Domain.Pedidos.Entidades;
 using System.Linq;
 
-namespace Projeto.Curso.Core.Domain.Pedidos.Entidades
+namespace Projeto.Curso.Core.Domain.Pedidos.AgregacaoPedidos
 {
     public class ItensPedidos : EntidadeBase
     {
